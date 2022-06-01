@@ -1,0 +1,98 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image {
+    width: 100%;
+}
+.navigation {
+    text-align: center;
+    background-color: cyan;
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    background-color: pink;
+    color: brown;
+
+}
+
+.main-content {
+    margin-left: 50px;
+}
+ 
+
+/* styling for Stories link */
+
+.stories {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stories .col img {
+    width: 100%;
+    opacity: 0.8;
+}
+    
+
+.stories .col {
+    width: 30%;
+    display: inline-block;
+    margin: 20px 5px;
+    box-shadow: 0 4px 8px 0;
+}
+
+/* styling for contacts */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: beige;
+    padding: 30px;
+    border-radius: 10px ;
+}
+label {
+    display: block;
+    margin: 10px 5px;
+}
+
+legend {
+    display: none;
+}
+
+fieldset {
+    border: none;
+}
+
+input,textarea { 
+    width: 100%;
+    padding: 12px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 200px;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
